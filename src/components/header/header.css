@@ -1,0 +1,11 @@
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+}
+
+header .header-title {
+    font-size: 28px;
+}
