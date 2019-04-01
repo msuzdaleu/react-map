@@ -4,7 +4,7 @@ import './myMap.css';
 
 const MyMap = (props) => (
     <YMaps>
-        <Map state={props.mapState} className='mymap'>
+        <Map state={props.mapState} className="mymap">
             {props.coordinates.map(coordinate => <Placemark key={coordinate[0]} geometry={coordinate} />)}
         </Map>
     </YMaps>

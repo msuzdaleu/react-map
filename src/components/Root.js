@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import '../index.css';
 import Button from './button/button';
-import Header from "./header/header";
-import MyMap from "./myMap/myMap";
-import { Input } from "@material-ui/core";
+import Header from './header/header';
+import MyMap from './myMap/myMap';
+import { Input } from '@material-ui/core';
 
 class Root extends Component {
     constructor() {
@@ -18,7 +18,6 @@ class Root extends Component {
             ],
             isError: false
         };
-        this.handleSearch = this.handleSearch.bind(this)
     }
 
     handleSearch = (e) => {
@@ -36,7 +35,8 @@ class Root extends Component {
                 },
                 coordinates: [
                     [latitude, longitude]
-                ]
+                ],
+                isError: false
             });
         }
     };

@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-import './button.css';
 
 const Button2 = (props) => {
     return (

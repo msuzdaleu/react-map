@@ -6,6 +6,6 @@ header {
     position: static;
 }
 
-header .header-title {
-    font-size: 28px;
+.header-title img {
+    width: 20%;
 }
