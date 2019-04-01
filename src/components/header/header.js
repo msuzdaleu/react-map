@@ -4,8 +4,6 @@ import './header.css';
 import logo from '../../logo.svg'
 
 const Header = () => {
-    const title = 'Application for display images';
-
     return (
         <AppBar position="static">
             <span className="header-title">
