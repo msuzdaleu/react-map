@@ -43,12 +43,11 @@ class Root extends Component {
 
     render() {
         const buttonTitle = 'load coordinates';
-        const mainComponent = <MyMap mapState={this.state.mapData} coordinates={this.state.coordinates} />
 
         return (
             <div>
                 <Header />
-                {mainComponent}
+                <MyMap mapState={this.state.mapData} coordinates={this.state.coordinates} />
                 <form onSubmit={this.handleSearch} className="form-input">
                     <Input placeholder="Enter a latitude"
                         className="input-style"
